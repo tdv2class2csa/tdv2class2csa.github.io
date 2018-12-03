@@ -234,17 +234,6 @@
           }
       }
 
-      function appendColumn8() {
-          var tbl = document.getElementById('my-table'), i;
-          for(i = 1; i < tbl.rows.length; i++){
-             if( i != 8){
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
-             }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Persona che si dimostra eccessivamente egocentrica e soggettivista", 'col');
-             }
-          }
-      }
-
 
       function createCell(cell, text, style) {
          var div = document.createElement('div'), 
@@ -293,7 +282,6 @@
             <tr><td onclick="deleteColumns(); appendColumn5()"> Orezzo </td><td width="100%">  </td></tr>
             <tr><td onclick="deleteColumns(); appendColumn6()"> Precipuo </td><td width=100%">  </td></tr>
             <tr><td onclick="deleteColumns(); appendColumn7()"> Sodomizzare </td><td width="100%">   </td></tr>
-            <tr><td onclick="deleteColumns(); appendColumn8()"> Solipsista </td><td width="100%">   </td></tr>
          </tbody>
       </table>
       <div class="copyright">
