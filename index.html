@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="it">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" href="https://i.imgur.com/9tt08BT.png" type="image/jpg">
+      <title> TERMINI DESUETI </title>
+      <style>
+         html {
+
+            margin: 0;
+    
+            padding: 0;
+
+         }
+         body {
+    
+             font-family: 'Handlee', cursive;
+    
+             font-size: 20pt;
+    
+             background-color: #000000;
+    
+             padding: 10px;
+    
+             margin: 0;
+
+         }
+         h1 {
+    
+            font-size: 25px;
+    
+            color: #FFFFFF;
+    
+            text-align: center;
+    
+            padding: 18px 0 18px 0;
+   
+            margin: 0 0 10px 0;
+         
+}
+         h2 {
+    
+            font-size: 22px;
+    
+            color: #FFFFFF;
+    
+            text-align: center;
+    
+            padding: 18px 0 18px 0;
+   
+            margin: 0 0 10px 0;
+         
+}
+         h6{
+            font-size: 2px;
+ 
+         }
+         h1 span {
+    
+            border: 4px dashed #FFFFFF;
+    
+            padding: 10px;
+         
+}
+         p {
+    
+            padding: 0;
+    
+            margin: 0;
+
+         }
+         .img-circle {
+    
+            border: 3px solid white;
+    
+            border-radius: 50%;
+         
+}
+         .section {
+   
+            background-color: #000011;
+   
+            padding: 15px;
+    
+            margin-bottom: 10px;
+  
+            border-radius: 10px;
+
+         }
+         .copyright {
+    
+            font-size: 8pt;
+    
+            text-align: right;
+    
+            padding-bottom: 10px;
+   
+            color: grey;
+         
+}
+         #header {
+   
+            background-image: url("https://imgur.com/kFh3x87");
+    
+            background-size: cover;
+
+         }
+         #header img {
+    
+            display: block;
+   
+            width: 80px;
+    
+            height: 80px;
+    
+            margin: auto;
+         }
+         #header p {
+ 
+            font-size: 25pt;
+    
+            color: #FFFFFF;
+   
+            padding-top: 5px;
+    
+            margin: 0;
+    
+            font-weight: bold;
+    
+            text-align: center;
+
+         }
+         table  { 
+            border-collapse:collapse;
+         }
+         table, td, th { 
+            border:2px solid #ddd;
+            padding:8px;
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+            table-layout: fixed;
+            color: #FFFFFF;
+         }
+         
+      </style>
+      <script type="text/javascript">
+
+      function appendRow() {
+         var tbl = document.getElementById('my-table'), 
+         row = tbl.insertRow(tbl.rows.length),    
+         i;
+         for (i = 0; i < tbl.rows[0].cells.length; i++) {
+            createCell(row.insertCell(i), i, 'row');
+         }
+      }
+
+       function appendColumn1() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i != 1){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Scoppio di riso irrefrenabile provocato da una situazione buffa e imprevista.", 'col');
+             }
+          }
+      }
+
+      function appendColumn2() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i != 2){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Bugiardo, mosso da animo insincero e ingannevole", 'col');
+             }
+          }
+      }
+
+      function appendColumn3() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i !=3){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Offuscare qualcuno, indebolirne la capacità di vedere o di comprendere", 'col');
+             }
+          }
+      }
+
+      function appendColumn4() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i != 4){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Abbondante, copioso", 'col');
+             }
+          }
+      }
+
+      function appendColumn5() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i !=5){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Venticello fresco, lieve brezza", 'col');
+             }
+          }
+      }
+
+      function appendColumn6() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i !=6){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Che si deve considerare per primo, principale", 'col');
+             }
+          }
+      }
+
+
+
+      function appendColumn7() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i != 7){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Costringere qualcuno ad un rapporto sessuale anale.", 'col');
+             }
+          }
+      }
+
+      function appendColumn8() {
+          var tbl = document.getElementById('my-table'), i;
+          for(i = 1; i < tbl.rows.length; i++){
+             if( i != 8){
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
+             }else{
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Persona che si dimostra eccessivamente egocentrica e soggettivista", 'col');
+             }
+          }
+      }
+
+
+      function createCell(cell, text, style) {
+         var div = document.createElement('div'), 
+         txt = document.createTextNode(text); 
+         div.appendChild(txt);                    
+         div.setAttribute('class', style);      
+         div.setAttribute('className', style);
+         cell.appendChild(div);                   
+      }
+      function deleteRows() {
+         var tbl = document.getElementById('my-table'),
+         lastRow = tbl.rows.length - 1,             
+         i;
+         for (i = lastRow; i > 0; i--) {
+            tbl.deleteRow(i);
+         }
+      }
+      function deleteColumns() {
+         var tbl = document.getElementById('my-table'),
+         lastCol = tbl.rows[1].cells.length - 1,  
+         i, j;
+         for (i = 1; i < tbl.rows.length; i++) {
+            for (j = lastCol; j > 0; j--) {
+               tbl.rows[i].deleteCell(j);
+            }
+         }
+      }
+      </script>
+   </head>
+   <body>
+      <div id="header" class="section">
+            
+         <img alt="" class="img-circle" src=https://i.imgur.com/9tt08BT.png>
+           
+         <p>Termini Desueti</p>
+        
+      </div class="section">
+      <h1> <span> Classe 2&ordf;C SA </span> </h1>
+      <table id="my-table">
+            <tr><th><h1> Termini </h1></th><th width="100%"><h2>Significato</h2></th></tr>
+         <tbody>
+            <tr><td onclick="deleteColumns(); appendColumn1()"> Ilarit&agrave </td><td width="100%">   </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn2()"> Mendace </td><td width="100%">  </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn3()"> Obnubilare </td><td width="100%">  </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn4()"> Opimo </td><td width="100%">  </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn5()"> Orezzo </td><td width="100%">  </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn6()"> Precipuo </td><td width=100%">  </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn7()"> Sodomizzare </td><td width="100%">   </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn8()"> Solipsista </td><td width="100%">   </td></tr>
+         </tbody>
+      </table>
+      <div class="copyright">
+            
+      &copy; 2018 Termini Desueti &trade;. Tutti i diritti riservati.
+
+      <!--<h6> (-b&plusmn;&radic;b&sup2;-4ac)/2 </h6>  
+      <h6> d/db(&int;(f(x,b))dx) = &int;(&part;/&part;b(f(x,b))dx) </h6> 
+      <h6> e^ix = cos(x) + i sin(x) </h6>
+      <h6> &sum;(n=1, n->&infin;, n) = -1/12 </h6>-->
+     </div>
+   </body>
+</html>
