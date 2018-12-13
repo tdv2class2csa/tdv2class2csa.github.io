@@ -3,7 +3,7 @@
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="icon" href="https://i.imgur.com/9tt08BT.png" type="image/jpg">
-      <title> TERMINI DESUETI </title>
+      <title> Termini Desueti v2 </title>
       <style>
          html {
 
@@ -191,10 +191,10 @@
       function appendColumn4() {
           var tbl = document.getElementById('my-table'), i;
           for(i = 1; i < tbl.rows.length; i++){
-             if( i != 4){
+             if( i !=4){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Stato d'animo di chi è ilare; allegria, buon umore, e la manifestazione esterna di tale stato e sentimento.", 'col');
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Che non dice la verità, quindi bugiardo.", 'col');
              }
           }
       }
@@ -205,18 +205,18 @@
              if( i !=5){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Che non dice la verità, quindi bugiardo.", 'col');
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Annuvolare. Nel linguaggio letterario e medico, annebbiare, offuscare.", 'col');
              }
           }
       }
-
-      function appendColumn6() {
+	  
+	  function appendColumn6() {
           var tbl = document.getElementById('my-table'), i;
           for(i = 1; i < tbl.rows.length; i++){
              if( i !=6){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Annuvolare. Nel linguaggio letterario e medico, annebbiare, offuscare.", 'col');
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Letteralmente grasso, pingue; fertile, abbondante di frutti.", 'col');
              }
           }
       }
@@ -227,7 +227,7 @@
              if( i !=7){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Letteralmente grasso, pingue; fertile, abbondante di frutti.", 'col');
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Venticello fresco, lieve brezza; più comunemente, ombra fresca.", 'col');
              }
           }
       }
@@ -238,7 +238,7 @@
              if( i !=8){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Venticello fresco, lieve brezza; più comunemente, ombra fresca.", 'col');
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Degno, proprio di Pantagruel, protagonista del romanzo 'Gargantua et Pantagruel' di François Rabelais, rappresentato come personaggio gigantesco e dotato di un formidabile appetito.", 'col');
              }
           }
       }
@@ -249,7 +249,7 @@
              if( i !=9){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Degno, proprio di Pantagruel, protagonista del romanzo 'Gargantua et Pantagruel' di François Rabelais, rappresentato come personaggio gigantesco e dotato di un formidabile appetito.", 'col');
+                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Riferito a uomo, possedere carnalmente per via anale una persona (per lo più non consenziente) del proprio o dell'altro sesso.", 'col');
              }
           }
       }
@@ -258,28 +258,6 @@
           var tbl = document.getElementById('my-table'), i;
           for(i = 1; i < tbl.rows.length; i++){
              if( i !=10){
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
-             }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Riferito a uomo, possedere carnalmente per via anale una persona (per lo più non consenziente) del proprio o dell'altro sesso.", 'col');
-             }
-          }
-      }
-	  
-	  function appendColumn11() {
-          var tbl = document.getElementById('my-table'), i;
-          for(i = 1; i < tbl.rows.length; i++){
-             if( i !=11){
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
-             }else{
-                createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Che ha corporatura robusta e massiccia.", 'col');
-             }
-          }
-      }
-	  
-	  function appendColumn12() {
-          var tbl = document.getElementById('my-table'), i;
-          for(i = 1; i < tbl.rows.length; i++){
-             if( i !=12){
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "", 'col');
              }else{
                 createCell(tbl.rows[i].insertCell(tbl.rows[i].cells.length), "Che si trova, o riesce a trovarsi, in più luoghi contemporaneamente o dappertutto; che ha il dono dell'ubiquità.", 'col');
@@ -331,15 +309,13 @@
             <tr><td onclick="deleteColumns(); appendColumn1()"> Barcamenarsi </td><td width="100%">   </td></tr>
             <tr><td onclick="deleteColumns(); appendColumn2()"> Corroborante </td><td width="100%">  </td></tr>
             <tr><td onclick="deleteColumns(); appendColumn3()"> Eburneo </td><td width="100%">  </td></tr>
-            <tr><td onclick="deleteColumns(); appendColumn4()"> Ilarit&agrave; </td><td width="100%">  </td></tr>
-            <tr><td onclick="deleteColumns(); appendColumn5()"> Mendace </td><td width="100%">  </td></tr>
-            <tr><td onclick="deleteColumns(); appendColumn6()"> Obnubilare </td><td width="100%">   </td></tr>
-			<tr><td onclick="deleteColumns(); appendColumn7()"> Opimo </td><td width="100%">   </td></tr>
-			<tr><td onclick="deleteColumns(); appendColumn8()"> Orezzo </td><td width="100%">   </td></tr>
-			<tr><td onclick="deleteColumns(); appendColumn9()"> Pantagruelico </td><td width="100%">   </td></tr>
-			<tr><td onclick="deleteColumns(); appendColumn10()"> Sodomizzare </td><td width="100%">   </td></tr>
-			<tr><td onclick="deleteColumns(); appendColumn11()"> Tarchiato </td><td width="100%">   </td></tr>
-			<tr><td onclick="deleteColumns(); appendColumn12()"> Ubiquo </td><td width="100%">   </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn4()"> Mendace </td><td width="100%">  </td></tr>
+            <tr><td onclick="deleteColumns(); appendColumn5()"> Obnubilare </td><td width="100%">   </td></tr>
+			<tr><td onclick="deleteColumns(); appendColumn6()"> Opimo </td><td width="100%">   </td></tr>
+			<tr><td onclick="deleteColumns(); appendColumn7()"> Orezzo </td><td width="100%">   </td></tr>
+			<tr><td onclick="deleteColumns(); appendColumn8()"> Pantagruelico </td><td width="100%">   </td></tr>
+			<tr><td onclick="deleteColumns(); appendColumn9()"> Sodomizzare </td><td width="100%">   </td></tr>
+			<tr><td onclick="deleteColumns(); appendColumn10()"> Ubiquo </td><td width="100%">   </td></tr>
          </tbody>
       </table>
       <div class="copyright">
