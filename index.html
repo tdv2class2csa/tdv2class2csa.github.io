@@ -29,7 +29,7 @@
     
             font-size: 25px;
     
-            color: #FFFFFF;
+            color: #ffffff;
     
             text-align: center;
     
@@ -42,7 +42,7 @@
     
             font-size: 22px;
     
-            color: #FFFFFF;
+            color: #ffffff;
     
             text-align: center;
     
@@ -57,9 +57,11 @@
          }
          h1 span {
     
-            border: 4px dashed #FFFFFF;
+            border: 3px solid #c6c6c6;
     
             padding: 10px;
+			
+			border-radius:20px;
          
 }
          p {
@@ -84,7 +86,7 @@
     
             margin-bottom: 10px;
   
-            border-radius: 10px;
+            border-radius: 40px;
 
          }
          .copyright {
@@ -95,16 +97,9 @@
     
             padding-bottom: 10px;
    
-            color: grey;
+            color: gray;
          
 }
-         #header {
-   
-            background-image: url("https://imgur.com/kFh3x87");
-    
-            background-size: cover;
-
-         }
          #header img {
     
             display: block;
@@ -130,17 +125,45 @@
             text-align: center;
 
          }
-         table  { 
-            border-collapse:collapse;
-         }
-         table, td, th { 
-            border:2px solid #ddd;
-            padding:8px;
+        table {
+			border-collapse:separate;
+			border-spacing: 0px;
+			border:2px solid #c6c6c6;
+			padding:0px;
+			border-radius:12px;
+			}
+
+		td:first-child {
+			border-left: none;
+			border-top: none;
+			border-bottom: none;
+			}
+		
+		th:first-child {
+			border-left: none;
+			border-top: none;
+			
+			}
+		
+		td:last-child{
+			border-right: none;
+			border-top: none;
+			border-bottom: none;
+			}
+			
+			th:last-child {
+			border-right: none;
+			border-top: none;
+			}
+			
+        td, th { 
+            border:2px solid #c6c6c6;
+            padding:10px;
             font-weight: bold;
             font-size: 15px;
             text-align: center;
             table-layout: fixed;
-            color: #FFFFFF;
+            color: #ffffff;
          }
          
       </style>
